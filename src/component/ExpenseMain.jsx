@@ -2,13 +2,13 @@ import React, { useContext, useState } from "react";
 import budget from budget
 
 
-const ExpenseMainApp = () => {
+const ExpenseMain = () => {
   
   return (
     <>
       <div className="main-container">
         <h1 className="user text-gray-900 font-bold text-5xl px-5 py-8">
-          Hello Nirvikar here
+          Hello Omkar, here
         </h1>
         <div className="budget-container  flex flex-row gap-5 px-10">
           <BudgetCards
@@ -34,4 +34,4 @@ const ExpenseMainApp = () => {
   );
 };
 
-export default ExpenseMainApp;
+export default ExpenseMain;

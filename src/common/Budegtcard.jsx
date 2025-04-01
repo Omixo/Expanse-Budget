@@ -16,4 +16,4 @@ const BudgetCards = ({ title, budget, image }) => {
   )
 }
 
-export default BudgetCards
+export default BudgetCard
